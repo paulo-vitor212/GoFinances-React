@@ -31,6 +31,15 @@ export const Container = styled.div<ContainerProps>`
           opacity: 0.6;
         }
       }
+      div{
+        position: absolute;
+        width: 73px;
+        height: 2px;
+        left: 84.3%;
+        top: 11%;
+        border:1px solid #FF872C;
+        transition: all 0.2s;
+      }
     }
   }
 `;
